@@ -180,7 +180,7 @@ def main():
     parser.add_argument('--labels_csv', type=str, default='labels.csv')
     parser.add_argument('--ckpt', type=str, required=True)
     parser.add_argument('--encoder', type=str, default='efficientnet_b0')
-    parser.add_argument('--max_images', type=int, default=32)
+    parser.add_argument('--max_images', type=int, default=0)
     parser.add_argument('--topk', type=int, default=5)
     parser.add_argument('--target_label', type=int, default=None, help='单个标签索引；若不提供且 --all_labels 开启，则对全部标签生成解释')
     parser.add_argument('--all_labels', action='store_true', help='对 checkpoint 中的全部标签逐一生成解释')

@@ -1,0 +1,55 @@
+2025-11-23 14:12:57,326 [INFO] ===== Prototype vs Disease 频率分析开始 =====
+2025-11-23 14:12:57,340 [INFO] [build_hist] 读取 meta_with_cluster：11883 条记录
+2025-11-23 14:12:57,608 [INFO] [build_hist] 读取 labels.xlsx：211 个患者
+2025-11-23 14:12:57,608 [INFO] [build_hist] 共有 0 个患者在图像和标签中都有记录。
+2025-11-23 14:12:57,608 [INFO] [build_hist] 检测到 prototype 数 K=128
+2025-11-23 14:12:57,922 [INFO] [build_hist] 患者 prototype 频率矩阵 H 保存到 .\analysis_outputs\patient_prototype_hist.npy，形状 = (0, 128)
+2025-11-23 14:12:57,922 [INFO] [build_hist] 患者标签矩阵 Y 保存到 .\analysis_outputs\patient_labels.npy，形状 = (0,)
+2025-11-23 14:12:57,922 [INFO] [build_hist] 患者 id 序列保存到 .\analysis_outputs\patient_ids.npy
+2025-11-23 14:12:57,923 [INFO] [analyze] 加载 H: (0, 128), Y: (0,)
+2025-11-25 10:00:51,753 [INFO] ===== Prototype vs Disease 频率分析开始 =====
+2025-11-25 10:00:51,768 [INFO] [build_hist] 读取 meta_with_cluster：11883 条记录
+2025-11-25 10:00:51,960 [INFO] [build_hist] 读取 labels.xlsx：211 个患者
+2025-11-25 10:00:51,967 [INFO] [build_hist] 共有 211 个患者在图像和标签中都有记录。
+2025-11-25 10:00:51,967 [INFO] [build_hist] 检测到 prototype 数 K=128
+2025-11-25 10:00:52,298 [INFO] [build_hist] 患者 prototype 频率矩阵 H 保存到 .\analysis_outputs\patient_prototype_hist.npy，形状 = (211, 128)
+2025-11-25 10:00:52,298 [INFO] [build_hist] 患者标签矩阵 Y 保存到 .\analysis_outputs\patient_labels.npy，形状 = (211, 4)
+2025-11-25 10:00:52,298 [INFO] [build_hist] 患者 id 序列保存到 .\analysis_outputs\patient_ids.npy
+2025-11-25 10:00:52,298 [INFO] [analyze] 加载 H: (211, 128), Y: (211, 4)
+2025-11-25 10:00:52,298 [INFO] [analyze] 疾病 乙型肝炎: 阳性 123 例, 阴性 88 例
+2025-11-25 10:00:52,298 [INFO] [analyze] 疾病 乙型肝炎 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_乙型肝炎.csv
+2025-11-25 10:00:52,590 [INFO] [analyze] 疾病 乙型肝炎 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_乙型肝炎.png
+2025-11-25 10:00:52,591 [INFO] [analyze] 疾病 糖尿病: 阳性 35 例, 阴性 176 例
+2025-11-25 10:00:52,594 [INFO] [analyze] 疾病 糖尿病 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_糖尿病.csv
+2025-11-25 10:00:52,787 [INFO] [analyze] 疾病 糖尿病 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_糖尿病.png
+2025-11-25 10:00:52,787 [INFO] [analyze] 疾病 血脂异常: 阳性 34 例, 阴性 177 例
+2025-11-25 10:00:52,787 [INFO] [analyze] 疾病 血脂异常 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_血脂异常.csv
+2025-11-25 10:00:53,011 [INFO] [analyze] 疾病 血脂异常 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_血脂异常.png
+2025-11-25 10:00:53,011 [INFO] [analyze] 疾病 高尿酸血症: 阳性 34 例, 阴性 177 例
+2025-11-25 10:00:53,011 [INFO] [analyze] 疾病 高尿酸血症 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_高尿酸血症.csv
+2025-11-25 10:00:53,243 [INFO] [analyze] 疾病 高尿酸血症 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_高尿酸血症.png
+2025-11-25 10:00:54,321 [INFO] [heatmap] 全局热力图保存到 .\analysis_outputs\prototype_diff_heatmap.png
+2025-11-25 10:00:54,321 [INFO] ===== Prototype vs Disease 频率分析结束 =====
+2025-11-25 10:06:17,312 [INFO] ===== Prototype vs Disease 频率分析开始 =====
+2025-11-25 10:06:17,324 [INFO] [build_hist] 读取 meta_with_cluster：11883 条记录
+2025-11-25 10:06:17,531 [INFO] [build_hist] 读取 labels.xlsx：211 个患者
+2025-11-25 10:06:17,537 [INFO] [build_hist] 共有 211 个患者在图像和标签中都有记录。
+2025-11-25 10:06:17,537 [INFO] [build_hist] 检测到 prototype 数 K=128
+2025-11-25 10:06:17,914 [INFO] [build_hist] 患者 prototype 频率矩阵 H 保存到 .\analysis_outputs\patient_prototype_hist.npy，形状 = (211, 128)
+2025-11-25 10:06:17,914 [INFO] [build_hist] 患者标签矩阵 Y 保存到 .\analysis_outputs\patient_labels.npy，形状 = (211, 4)
+2025-11-25 10:06:17,914 [INFO] [build_hist] 患者 id 序列保存到 .\analysis_outputs\patient_ids.npy
+2025-11-25 10:06:17,914 [INFO] [analyze] 加载 H: (211, 128), Y: (211, 4)
+2025-11-25 10:06:17,914 [INFO] [analyze] 疾病 乙型肝炎: 阳性 123 例, 阴性 88 例
+2025-11-25 10:06:17,914 [INFO] [analyze] 疾病 乙型肝炎 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_乙型肝炎.csv
+2025-11-25 10:06:18,192 [INFO] [analyze] 疾病 乙型肝炎 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_乙型肝炎.png
+2025-11-25 10:06:18,192 [INFO] [analyze] 疾病 糖尿病: 阳性 35 例, 阴性 176 例
+2025-11-25 10:06:18,197 [INFO] [analyze] 疾病 糖尿病 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_糖尿病.csv
+2025-11-25 10:06:18,437 [INFO] [analyze] 疾病 糖尿病 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_糖尿病.png
+2025-11-25 10:06:18,437 [INFO] [analyze] 疾病 血脂异常: 阳性 34 例, 阴性 177 例
+2025-11-25 10:06:18,441 [INFO] [analyze] 疾病 血脂异常 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_血脂异常.csv
+2025-11-25 10:06:18,654 [INFO] [analyze] 疾病 血脂异常 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_血脂异常.png
+2025-11-25 10:06:18,654 [INFO] [analyze] 疾病 高尿酸血症: 阳性 34 例, 阴性 177 例
+2025-11-25 10:06:18,654 [INFO] [analyze] 疾病 高尿酸血症 的 prototype 统计保存到 .\analysis_outputs\prototype_stats_高尿酸血症.csv
+2025-11-25 10:06:18,895 [INFO] [analyze] 疾病 高尿酸血症 的 top-15 差异条形图保存到 .\analysis_outputs\prototype_diff_top15_高尿酸血症.png
+2025-11-25 10:06:20,016 [INFO] [heatmap] 全局热力图保存到 .\analysis_outputs\prototype_diff_heatmap.png
+2025-11-25 10:06:20,016 [INFO] ===== Prototype vs Disease 频率分析结束 =====
