@@ -1,0 +1,26 @@
+# 各种表格、大文件，默认不上传
+*.xlsx
+*.csv
+
+# 但 code 目录里的这几个表格需要上传
+!code/labels.xlsx
+!code/features.xlsx
+
+# 数据集、标签类文件夹，不上传
+data/
+label/
+label02/
+
+# 模型权重
+weight/
+
+# 解释结果、输出、日志
+explain_out/
+code/analysis_01/
+code/analysis_02/
+code/outputs/
+code/outputs_angle/
+
+# Python 缓存
+__pycache__/
+code/__pycache__/
