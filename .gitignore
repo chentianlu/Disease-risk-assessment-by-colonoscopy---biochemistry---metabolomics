@@ -24,3 +24,4 @@ code/outputs_angle/
 # Python 缓存
 __pycache__/
 code/__pycache__/
+pre/
