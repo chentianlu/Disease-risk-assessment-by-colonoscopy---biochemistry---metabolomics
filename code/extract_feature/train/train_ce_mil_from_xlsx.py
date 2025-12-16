@@ -269,12 +269,12 @@ class MILClassifier(nn.Module):
 
         self.classifier = nn.Sequential(
             nn.Linear(input_dim, hidden_dim),
-            nn.BatchNorm1d(hidden_dim),
+            nn.LayerNorm(hidden_dim),
             nn.ReLU(),
             nn.Dropout(0.3),
 
             nn.Linear(hidden_dim, hidden_dim // 2),
-            nn.BatchNorm1d(hidden_dim // 2),
+            nn.LayerNorm(hidden_dim // 2),
             nn.ReLU(),
             nn.Dropout(0.3),
 
@@ -579,13 +579,13 @@ if __name__ == "__main__":
     main()
 """
 python train_ce_mil_from_xlsx.py \
-  --features_xlsx ../tile_features.xlsx \
+  --features_xlsx ../features01.xlsx \
   --labels_xlsx ../../labels.xlsx \
   --label_col 内分泌代谢疾病 \
   --epochs 30 \
   --folds 4 \
   --batch_size 1 \
   --max_instances 0 \
-  --out_dir outputs_ce_mil_feat
+  --out_dir outputs_attention_feat01
 
 """
