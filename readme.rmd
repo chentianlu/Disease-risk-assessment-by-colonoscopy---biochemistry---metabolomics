@@ -26,7 +26,6 @@ outputs/
     └── run1/
         ├── train.log   ← timestamped log FILE
         ├── fold_1/
-        │   └── model.pt
         ├── fold_2/
         ├── fold_3/
         ├── fold_4/
